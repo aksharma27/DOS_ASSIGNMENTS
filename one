@@ -1,0 +1,5 @@
+a=20.5
+b=10.3
+sum=`echo $a+$b | bc`
+sum2=$(echo $a+$b|bc)
+echo "sum of $a and $b is $sum or $sum2"

@@ -1,0 +1,10 @@
+#Addition
+a=20 b=5
+add=`expr $a +$b`
+echo "addition of $a and $b is $add"
+sum=$(($a+$b))
+echo $sum
+
+#Multiplication
+mul=`expr $a \* $b`
+echo "Multipliction is : $mul"

@@ -1,0 +1,4 @@
+#enter number from user/keyboard!!
+echo Enter a number
+read num
+echo "Entered number is $num"

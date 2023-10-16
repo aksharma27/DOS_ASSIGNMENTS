@@ -1,0 +1,8 @@
+echo enter 2 number
+read n m
+if [ $n -gt $m ]
+then 
+echo "$m is greater than $n"
+else 
+echo "$n is greater than $m"
+fi
